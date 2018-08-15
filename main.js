@@ -17,9 +17,13 @@ function createWindow () {
     minWidth: 800,
     minHeight: 600,
     frame: false,
-    backgroundColor: '#3333cc',
+    transparent: true,
+    //backgroundColor: '#3333cc',
     icon: 'icon.png'
   })
+
+//scrollbar
+
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
